@@ -4,10 +4,35 @@ body{
 	color: rgba(0,0,0,0.5);
 }
 
-.section1-font, .section2-font, h1,h2,h3,h4,h5,h6 {
+.section1-font h1 {
+	color: #afffd4;
+}
+
+.section2-font, h1,h2,h3,h4,h5,h6 {
 	color: #f2f2f2;
 }
 
-h1{
-	font-size: 6em;
+.color-turqoise {
+	color: #afffd4;
+}
+
+.heading-border {
+	border-top: 5px solid #afffd4;
+	border-bottom: 5px solid #afffd4;
+}
+
+.fp-controlArrow.fp-down {
+	top: 95%;
+	left: 50%;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent  #0f3041 transparent;
+	transform: rotate(90deg);
+}
+
+.fp-controlArrow.fp-up {
+	top: 5%;
+	left: 50%;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent  #f2f2f2 transparent;
+	transform: rotate(-90deg);
 }
