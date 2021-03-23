@@ -5,21 +5,30 @@ body{
 }
 
 .section1-font h1 {
-	color: #afffd4;
+	color: #f5f5f5;
 }
 
-.section2-font, h1,h2,h3,h4,h5,h6 {
-	color: #f2f2f2;
+.section2-font, h1, h2, h3, h4, h5 {
+	color: #f5f5f5;
 }
 
 .color-turqoise {
-	color: #afffd4;
+	color: #457778;
 }
 
 .heading-border {
-	border-top: 5px solid #afffd4;
-	border-bottom: 5px solid #afffd4;
+	border-top: 5px solid #f5f5f5;
+	border-bottom: 5px solid #f5f5f5;
 }
+.fp-controlArrow.fp-prev {
+	border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #f5f5f5;
+
+}
+
 
 .fp-controlArrow.fp-down {
 	top: 95%;
@@ -29,10 +38,18 @@ body{
 	transform: rotate(90deg);
 }
 
+.fp-controlArrow.fp-down.fp-down-light {
+	top: 95%;
+	left: 50%;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent  #f5f5f5 transparent;
+	transform: rotate(90deg);
+}
+
 .fp-controlArrow.fp-up {
 	top: 5%;
 	left: 50%;
 	border-width: 38.5px 0 38.5px 34px;
-	border-color: transparent  #f2f2f2 transparent;
+	border-color: transparent  #f5f5f5 transparent;
 	transform: rotate(-90deg);
 }
